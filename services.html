@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services - Fizedge Projects LTD</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="icon" href="/media/fizedge_icon_logo 2.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="Fizedge.css">
+</head>
+<style>
+    .services-wrapper {
+        display: flex;
+        gap: 20px;
+        max-width: 1300px;
+        margin: auto;
+        padding: 30px 0px;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .services-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .service-box {
+        flex: 1;
+        min-width: 100px;
+    }
+
+    .service-title {
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .typing-1 {
+        animation: typing 3s steps(30) forwards, blink .7s infinite;
+    }
+
+    .typing-2 {
+        animation: typing 3.2s steps(30) forwards 3.5s, blink .7s infinite;
+    }
+
+    .typing-3 {
+        animation: typing 3.5s steps(35) forwards 7s, blink .7s infinite;
+    }
+
+    .service-list {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .service-list span {
+        opacity: 0;
+        animation: reveal .6s ease forwards;
+    }
+
+    .service-list span:nth-child(1) {
+        animation-delay: .2s;
+    }
+
+    .service-list span:nth-child(2) {
+        animation-delay: .4s;
+    }
+
+    .service-list span:nth-child(3) {
+        animation-delay: .6s;
+    }
+
+    .service-list span:nth-child(4) {
+        animation-delay: .8s;
+    }
+
+    .service-list span:nth-child(5) {
+        animation-delay: 1s;
+    }
+
+    .service-list span:nth-child(6) {
+        animation-delay: 1.2s;
+    }
+
+    .service-list span:nth-child(7) {
+        animation-delay: 1.4s;
+    }
+
+
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 100%
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent
+        }
+    }
+
+    @keyframes reveal {
+        to {
+            opacity: 1;
+            transform: translateY(-20px);
+        }
+    }
+
+    @media(max-width: 992px) {
+        .services-wrapper {
+            flex-direction: column;
+            gap: 50px;
+        }
+    }
+</style>
+
+<body>
+    <section class="hero-wrapper3">
+
+        <nav class="navbar navbar-expand-lg navbar-dark px-4 py-3">
+            <div class="container-fluid">
+                <div class="logo d-flex gap-2 me-3">
+                    <img src="./media/fizedge_icon_logo 2.svg" alt="Fizedge Logo" class="logo-img">
+                    <div class="logo-text">
+                        <p class="text-light mb-0 fw-bold">FIZEDGE</p>
+                        <p class="text-light mb-0 opt">Project LTD</p>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom text-light" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom text-muted" href="./services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom text-light" href="./team.html">Our Team</a>
+                        </li>
+                        <a class="nav-link nav-link-custom text-light" href="./our journey.html">Our Journey</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-2 gt">
+                        <button type="button" class="btn btn-outline-secondary btnn text-light"
+                            onclick="contact()">Contact Us</button>
+                        <a href="./our journey.html"><button type="button"
+                                class="btn btn-outline-secondary btn1 text-light">Get started</button></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="arc arc-1"></div>
+        <div class="arc arc-2"></div>
+        <div class="arc arc-3"></div>
+
+
+        <div class="floating-icons">
+            <span class="icon icon-1"></span>
+            <span class="icon icon-2"></span>
+            <span class="icon icon-3"></span>
+            <span class="icon icon-4"></span>
+            <span class="icon icon-5"></span>
+            <span class="icon icon-6"></span>
+        </div>
+
+        <div class="d-flex hero-content3 gap-5">
+            <div class="mt-lg-5 div01">
+                <img src="./media/Frame 1000004283 (5).png" alt="">
+                <h1>Service We Provide</h1>
+                <small>Insights driven solution for your Company.</small>
+                <div>
+                    <img src="./media/Group 1171274898.png" alt="" class="img01">
+                </div>
+            </div>
+            <div>
+                <img src="./media/new-fz.png" alt="" class=" img02">
+            </div>
+        </div>
+
+    </section>
+    <section class="sec3C">
+        <div class="adding">
+            <h2 class="animate__animated animate__flash text-center py-5 text">PRINT READY DIGITAL SOLUTIONS</h2>
+            <div class="services-wrapper">
+
+                <div class="service-box">
+                    <h2 class="service-title typing-1">Artwork Upscaling & Enhancement</h2>
+                    <div class="service-list delay-1">
+                        <span>Upscaling low resolution images</span>
+                        <span>Detail sharpening & cleanup</span>
+                        <span>Noise reduction for clean output</span>
+                        <span>Improving clarity for large format prints</span>
+                    </div>
+                </div>
+
+
+                <div class="service-box">
+                    <h2 class="service-title typing-2">Design Recreation</h2>
+                    <div class="service-list delay-2">
+                        <span>Vector recreation from JPG, PNG, PDF</span>
+                        <span>Clean line art for printing</span>
+                        <span>Recreate faded, damaged, or blurry designs</span>
+                        <span>Converting raster designs to scalable vectors</span>
+                    </div>
+                </div>
+
+
+                <div class="service-box">
+                    <h2 class="service-title typing-3">Print Quality Fix & Optimization</h2>
+                    <div class="service-list delay-3">
+                        <span>Fixing pixelation & jagged edges</span>
+                        <span>Enhancing text readability</span>
+                        <span>Optimizing colors for fabric & material types</span>
+                        <span>Preparing artwork for consistent print results</span>
+                        <span>DTF print ready setup</span>
+                        <span>Transparent backgrounds</span>
+                        <span>Exporting in AI, PDF, EPS, SVG, PNG</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="">
+        <section class="services-section">
+            <div class="service-item">
+                <div class="service-text mt-5">
+                    <h3> T-Shirt & Apparel Design</h3>
+                    <ul>
+                        <li>Custom T-shirt graphics</li>
+                        <li>Streetwear & typography designs</li>
+                        <li>Brand-consistent merchandise visuals</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="./media/ds.gif" alt="">
+                </div>
+            </div>
+
+            <div class="service-item reverse">
+                <div class="service-text mt-5">
+                    <h3>Print Ready Artwork & File Prep</h3>
+                    <ul>
+                        <li>Vector redraw & recreation</li>
+                        <li>Artwork upscaling & enhancement</li>
+                        <li>CMYK & Pantone optimization</li>
+                        <li>Screen print, DTG, DTF & sublimation setup</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="./media/prep.gif" alt="">
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-text mt-5">
+                    <h3>Illustration & Creative Artwork</h3>
+                    <ul>
+                        <li>Mascot graphics & icon</li>
+                        <li>Custom illustrations & character art</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="./media/illu.gif" alt="">
+                </div>
+            </div>
+
+            <div class="service-item reverse">
+                <div class="service-text mt-5">
+                    <h3>Design Recreation & Enhancement</h3>
+                    <ul>
+                        <li>Redrawing low-quality designs</li>
+                        <li>Modernizing old designs</li>
+                        <li>Cleaning customer-submitted files</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="./media/ilust.gif" alt="">
+                </div>
+            </div>
+
+            <div class="service-item ">
+                <div class="service-text mt-5">
+                    <h3>Cleaning customer-submitted files</h3>
+                    <ul>
+                        <li>Apparel-ready systems</li>
+                        <li>Label, tag & packaging design</li>
+                        <li>Visual consistency for merch</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="./media/brand.gif" alt="">
+                </div>
+            </div>
+
+            <div class="service-item reverse">
+                <div class="service-text mt-5">
+                    <h3>Video Editing & Motion Graphics</h3>
+                    <ul>
+                        <li>Logo animation</li>
+                        <li>Promotional, product, and social media videos</li>
+                        <li>Design led storytelling</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="./media/vid.gif" alt="">
+                </div>
+            </div>
+
+            <div class="service-item ">
+                <div class="service-text mt-5">
+                    <h3>Web & App Solutions</h3>
+                    <ul>
+                        <li>Website Design & Development</li>
+                        <li>UI/UX Design</li>
+                        <li>Web Applications</li>
+                        <li>Landing Pages</li>
+                    </ul>
+                </div>
+                <div class="service-image">
+                    <img src="./media/web (1).gif" alt="">
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <section class="cta-footer">
+
+        <div class="floating-icons">
+            <div class="">
+                <span class="icon icon-7"></span>
+                <span class="icon icon-8"></span>
+                <span class="icon icon-9"></span>
+                <span class="icon icon-10"></span>
+                <span class="icon icon-11"></span>
+                <span class="icon icon-13"></span>
+            </div>
+        </div>
+
+        <div class="cta-box">
+            <h2 class="">Want to reach out to us?</h2>
+            <a href="./contact.html" class="cta-btn text-light mt-5">
+                <i class="fa-solid fa-phone"> Contact Us</i>
+            </a>
+        </div>
+    </section>
+    <footer class="footer-content ">
+        <div class="footer-left  mt-4 mx-3">
+            <div class="logo d-flex  gap-2 mt-5">
+                <div>
+                    <img src="./media/fizedge_icon_logo 1.svg" alt="Fizedge Logo" class="logo-img">
+                </div>
+                <div class="logo-text">
+                    <p class="text-light mb-0 fw-bold">FIZEDGE</p>
+                    <p class="text-light mb-0 opt">Project LTD</p>
+                </div>
+            </div>
+
+            <div class="footer-links mx-3 mt-4">
+                <div>
+                    <a href="./index.html">Home</a>
+                    <a href="./services.html">Services</a>
+                </div>
+                <div>
+                    <a href="./team.html">About</a>
+                    <a href="./our journey.html">Portfolio</a>
+                    <a href="./contact.html">Contact us</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p class="mt-5">
+                <i class="fa-regular fa-envelope"></i> Email: 244project@fizedge.com
+            </p>
+            <p>
+                © 2025 Fizedge Projects LTD
+            </p>
+            <span>
+                Powered by 244 Project</span>
+        </div>
+    </footer>
+
+    <script>
+        function contact() {
+            window.location.href = "contact.html"
+        }
+    </script>
+</body>
+
+</html>

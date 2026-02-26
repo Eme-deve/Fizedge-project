@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fizedge Projects Team</title>
+    <meta name="description"
+        content="
+    Meet the Team Behind Fizedge
+
+Fizedge Projects LTD is powered by a team of creative designers, production specialists, video editors, motion artists, and digital developers who share one mission — to elevate brands through intentional design and technical precision.
+
+Our team blends creative thinking with real production knowledge. We understand apparel printing processes, digital marketing trends, and modern web technologies — allowing us to deliver solutions that are not only visually powerful but also practically effective.
+
+Collaboration is at the core of everything we do. Every project is handled with care, clarity, and commitment — because at Fizedge, we truly love your project.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="icon" href="/media/fizedge_icon_logo 2.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="Fizedge.css">
+</head>
+<style>
+    .sec3f {
+        position: relative;
+        height: 70vh;
+
+        overflow: hidden
+    }
+
+    .role span {
+        display: inline-block;
+        animation: slideIn 1s ease forwards;
+    }
+
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+    .vrd {
+        width: 30%;
+        position: absolute;
+        left: 69%;
+        border-radius: 100px;
+    }
+
+    .typing-wrapper {
+        max-width: 900px;
+        padding: 40px;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        line-height: 30px;
+    }
+
+    .typing-wrapper p {
+        opacity: 0;
+        transform: translateY(15px);
+        animation: fadeIn 3s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .hero-image {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .image-wrapper {
+        position: relative;
+        width: 550px;
+    }
+
+    .image-wrapper img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: opacity 0.5s ease;
+    }
+
+    .img-back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+    }
+
+    .image-wrapper:hover .img-back {
+        opacity: 1;
+    }
+
+    .image-wrapper:hover .img-front {
+        opacity: 0;
+    }
+</style>
+
+<body>
+    <section class="hero-wrapper3">
+
+        <nav class="navbar navbar-expand-lg navbar-dark px-4 py-3">
+            <div class="container-fluid">
+                <div class="logo d-flex gap-2">
+                    <img src="./media/fizedge_icon_logo 1.svg" alt="Fizedge Logo" class="logo-img">
+                    <div class="logo-text">
+                        <p class="text-light mb-0 fw-bold">FIZEDGE</p>
+                        <p class="text-light mb-0 opt">Project LTD</p>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom text-light" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom text-light" href="./services.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-custom text-muted" href="./team.html">Our Team</a>
+                        </li>
+                        <a class="nav-link nav-link-custom text-light" href="./our journey.html">Our Journey</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-2 gt">
+                        <button type="button" class="btn btn-outline-secondary btnn text-light"
+                            onclick="contact()">Contact Us</button>
+
+                        <button type="button" class="btn btn-outline-secondary btn1 text-light" onclick="Started()">Get
+                            started</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="arc arc-1"></div>
+        <div class="arc arc-2"></div>
+        <div class="arc arc-3"></div>
+
+        <div class="floating-icons">
+            <span class="icon icon-1"></span>
+            <span class="icon icon-2"></span>
+            <span class="icon icon-3"></span>
+            <span class="icon icon-4"></span>
+            <span class="icon icon-5"></span>
+            <span class="icon icon-6"></span>
+        </div>
+
+        <div class="hero-content2">
+            <div class="hero-text">
+                <img src="./media/Frame 1000004283 (2).png" alt="" class="mb-4">
+                <h1>Meet Our Team</h1>
+                <p>The people bringing 244 project to life.</p>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="./media/fzg-(1).gif" alt="" class="img-front">
+                    <img src="./media/fzg-(2).gif" alt="" class="img-back">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="sec3b">
+        <div class="Phase2 mb-4">
+            <img src="./media/Frame 1000004283 (3).png" alt="">
+        </div>
+        <h1 class="text-center text2 mb-5"><b>Collaboration, innovation and <br> Expertise at the core</h1>
+
+        <section class="team-wrapper mt-5">
+            <div class="team-card">
+                <div class="team-img">
+                    <img src="./media/FZ-1fiz.gif" alt="Tajudeen Afeez" loading="lazy">
+                </div>
+
+                <div class="team-info">
+                    <h3 class="text-uppercase"> Afeez Tajudeen</h3>
+                    <span class="role-badge text-uppercase">Founder / Managing Director</span>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+
+
+            <div class="team-card">
+                <div class="team-img b">
+                    <img src="./media/keem.gif" alt="Tajudeen Akeem" class="teamb" loading="lazy">
+                </div>
+
+                <div class="team-info">
+                    <h3 class="text-uppercase">Tajudeen Akeem</h3>
+                    <span class="role-badge text-uppercase"> Creative Director</span>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="Phase3 mb-5">
+            <img src="./media/Frame 1000004283 (4).png" alt="">
+        </div>
+
+        <section class="team-grid">
+            <div class="team-card">
+                <div class="card-img">
+                    <img src="./media/vonael.gif" alt="" loading="lazy">
+                    <span class="role">
+                        DIGITAL CRAFT SPECIALIST
+                    </span>
+                </div>
+                <div class="card-info">
+                    <h4>DAVID AKINTOLA</h4>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="card-img">
+                    <img src="./media/sondday.gif" alt="" loading="lazy">
+                    <span class="role">
+                        PROJECT SUPPORT COORDINATOR
+                    </span>
+                </div>
+                <div class="card-info">
+                    <h4>SOLOMON AJETUNMOBI</h4>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="card-img">
+                    <img src="./media/moses.gif" alt="" loading="lazy">
+                    <span class="role text-uppercase">Print Technician Specialist</span>
+                </div>
+                <div class="card-info">
+                    <h4>MOSES OYEDEPO</h4>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-grid mt-5 mb-5">
+            <div class="team-card">
+                <div class="card-img">
+                    <img src="./media/sheriff.jpg" alt="Sheriff" loading="lazy">
+                    <span class="role">
+                        WEB DEVELOPER & APP ENGINEER
+                    </span>
+                </div>
+                <div class="card-info">
+                    <h4>OYERANMI SHERIFF</h4>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="card-img">
+                    <img src="./media/WADA.gif" alt="" class="teamc" loading="lazy">
+                    <span class="role">
+                        VIDEO EDITOR
+                    </span>
+                </div>
+                <div class="card-info">
+                    <h4>VICTOR WADA</h4>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+
+            <div class="team-card">
+                <div class="card-img">
+                    <img src="./media/sharon.gif" alt="">
+                    <span class="role">
+                        CUSTOMER CARE REPRESENTATIVE
+                    </span>
+                </div>
+                <div class="card-info">
+                    <h4>MOFOLUWASO OYINDAMOLA</h4>
+                    <p>Your Vision is Our Expertise.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec3f">
+            <hr>
+            <div class="d-flex monica">
+                <div class="typing-wrapper">
+                    <div class="typing-text mb-5">
+                        <p>
+                            <i> <strong class="mb-5">Monica — The Face of Our Media</strong> </i> <br>
+                        </p>
+
+                        <p>
+                            Smart. Strategic. Relatable. <br>
+                        </p>
+
+                        <p class="history">
+                            Monica is the personality driving our digital presence. She communicates our ideas with
+                            clarity,
+                            represents our standards with confidence, and bridges the gap between brand and audience.
+                            <br>
+                            She’s not just the face , she’s the connection.
+                        </p>
+
+                        </p>
+                        <div class="mt-4">
+                            <h5 class="mb-3 mt-4">Follow Us</h5>
+                            <div class="social-links">
+                                <a href="
+                                    https://www.linkedin.com/company/fizedge-projects-ltd/" class="text-light me-3"
+                                    title="LinkedIn">
+                                    <i class="fab fa-linkedin fa-2x"></i>
+                                </a>
+                                <a href="
+                                        https://x.com/fizedge_?s=21" class="text-light me-3 text-light"
+                                    title="Twitter">
+                                    <i class="fab fa-twitter fa-2x"></i>
+                                </a>
+                                <a href="" class="text-light me-3" title="Discord">
+                                    <i class="fa-brands fa-discord"></i>
+                                </a>
+                                <a href="
+                                https://www.instagram.com/fizedgeprojects?igsh=MXA3cXg1dDM3NDlvNw%3D%3D&utm_source=qr"
+                                    class="text-light me-3" title="Instagram">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a href="
+                                https://www.facebook.com/share/1AaZ9NtHWW/?mibextid=wwXIfr" class="text-light me-3"
+                                    title="Facebook">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a href="mailto:244project@fizedge.com" class="text-light" title="Email">
+                                    <i class="fas fa-envelope fa-2x"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <video autoplay loop playsinline class="vrd"
+                        src="./media/copy_64B4ECBA-0F1A-4A53-BC5F-D6D8F6FE3EB6.MOV"></video>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="cta-footer">
+            <div class="floating-icons">
+                <div class="">
+                    <span class="icon icon-7"></span>
+                    <span class="icon icon-8"></span>
+                    <span class="icon icon-9"></span>
+                    <span class="icon icon-10"></span>
+                    <span class="icon icon-11"></span>
+                    <span class="icon icon-13"></span>
+                </div>
+            </div>
+
+            <div class="cta-box">
+                <h2>Want to reach out to us?</h2>
+                <a href="./contact.html" class="cta-btn text-light mt-5">
+                    Contact Us</i>
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer-content ">
+            <div class="footer-left  mt-4 mx-3">
+                <div class="logo d-flex  gap-2 mt-5">
+                    <div>
+                        <img src="./media/fizedge_icon_logo 1.svg" alt="Fizedge Logo" class="logo-img">
+                    </div>
+                    <div class="logo-text">
+                        <p class="text-light mb-0 fw-bold">FIZEDGE</p>
+                        <p class="text-light mb-0 opt">Project LTD</p>
+                    </div>
+                </div>
+
+                <div class="footer-links mx-3 mt-4">
+                    <div>
+                        <a href="./index.html">Home</a>
+                        <a href="./services.html">Services</a>
+                    </div>
+                    <div>
+                        <a href="./team.html">About</a>
+                        <a href="./our journey.html">Portfolio</a>
+                        <a href="./contact.html">Contact us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p class="mt-5">
+                    <i class="fa-regular fa-envelope"></i> Email: 244project@fizedge.com
+                </p>
+                <p>
+                    © 2025 Fizedge Projects LTD
+                </p>
+                <span>
+                    Powered by 244 Project</span>
+            </div>
+        </footer>
+
+        <script>
+            function contact() {
+                window.location.href = "contact.html"
+            }
+
+            function Started() {
+                window.location.href = "our journey.html"
+            }
+        </script>
+</body>
+
+</html>

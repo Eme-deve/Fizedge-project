@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+    .video-wrapper{
+    position:relative;
+    display:inline-block;
+}
+
+.play-btn{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    border:none;
+    font-size:24px;
+    background:white;
+    cursor:pointer;
+}
+
+</style>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa nulla repellat autem sequi quas debitis saepe voluptate officiis obcaecati possimus, illum illo expedita commodi sapiente provident hic quaerat sunt! Dicta?</p>
+    <div class="video-wrapper">
+    <video 
+        id="reviewVideo"
+        class="globe mx-4"
+        playsinline
+        preload="metadata"
+    >
+        <source src="./media/copy_1EB8AC99-5F06-4F7E-B714-16557C3AA3ED.MOV" type="video/mp4">
+    </video>
+
+    <button id="playBtn" class="play-btn">▶</button>
+</div>
+<script>
+const video = document.getElementById("reviewVideo");
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+
+        if(entry.isIntersecting){
+            video.play();
+        }else{
+            video.pause(); // pauses when user scrolls away 🔥
+        }
+
+    });
+}, {
+    threshold: 0.6 // plays when 60% of video is visible
+});
+
+observer.observe(video);
+</script>
+
+
+</body>
+</html>
