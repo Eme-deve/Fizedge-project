@@ -2709,12 +2709,6 @@ textarea::placeholder {
 /* Print styles */
 @media print {
 
-    .floating-icons,
-    .arc,
-    .hero-img,
-    .video-hero {
-        /* display: block !important; */
-    }
 
     .hero-wrapper,
     .sec2,
