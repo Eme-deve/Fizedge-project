@@ -569,8 +569,12 @@ textarea::placeholder {
 }
 
 .hyt {
-    margin-left: -13px;
+    margin-left: -6px;
 }
+
+  .dyy{
+        font-size: 20px !important;
+    }
 
 .team-img {
     width: 100%;
@@ -1128,7 +1132,7 @@ textarea::placeholder {
     .arc {
         width: 120%;
         height: 88%;
-        opacity: 1px;
+        opacity: 1;
     }
 
     .arc-1 {
@@ -1149,7 +1153,7 @@ textarea::placeholder {
 
     .arc-4 {
         top: 59% !important;
-        width: 20%;
+        width: 100%;
         /* display: none; */
     }
 
@@ -1224,6 +1228,9 @@ textarea::placeholder {
         font-size: 15px !important;
     }
 
+    .but{
+        margin-top: -45px !important;
+    }
 
     /* Hero Sections */
     .hero-wrapper {
@@ -1232,7 +1239,7 @@ textarea::placeholder {
     }
 
     .hero-wrapper2 {
-        min-height: 60vh !important;
+        min-height: 60% ;
     }
 
     .hero-wrapper3 {
@@ -1250,10 +1257,14 @@ textarea::placeholder {
         flex-direction: column;
     }
 
-
     .div01 .tag {
         margin: auto !important;
         width: 30% !important;
+    }
+
+    .div01 h1 {
+        font-size: 1.5rem !important;
+        margin-left: -150px !important;
     }
 
     .hero-content3 h1 {
@@ -1267,7 +1278,7 @@ textarea::placeholder {
 
     .hero-content2 {
         flex-direction: column;
-        padding: 40px 15px !important;
+        padding: 0px 15px !important;
         text-align: center;
     }
 
@@ -1306,7 +1317,7 @@ textarea::placeholder {
     }
 
     .floating-icons .icon {
-        width: 80px !important;
+        width: 80% !important;
         height: 120px !important;
         opacity: 1 !important;
     }
@@ -1336,54 +1347,26 @@ textarea::placeholder {
         display: block !important;
     }
 
-    /* Arc decorations - Show on mobile but optimized */
-    .arc {
-        width: 120%;
-        height: 88%;
-        opacity: 1px;
-    }
-
-    .arc-1 {
-        top: 14%;
-    }
-
-    .arc-2 {
-        top: 20%;
-        width: 100%;
-        height: 80%;
-    }
-
-    .arc-3 {
-        top: 28%;
-        width: 70%;
-        height: 60%;
-    }
-
-    .arc-4 {
-        top: 62%;
-    }
-
     .img02 {
-        width: 100% !important;
-        max-width: 350px !important;
-        margin-left: - 5% !important;
+        width: 90% !important;
+        margin-left: -7% !important;
     }
 
     .img01 {
-        width: 100px !important;
-        height: 80px !important;
+        width: 30% !important;
+        height: 20% !important;
         top: 28% !important;
-        left: -12% !important;
+        left: -15% !important;
     }
 
     .details img {
-        width: 100% !important;
-        max-width: 300px !important;
+        width: 100%;
     }
-
+.clients{
+    margin-top: -5% !important;
+}
     .clients img {
-        width: 50% !important;
-        max-width: 250px;
+        width: 80%;
     }
 
     .btn-primary,
@@ -1413,8 +1396,7 @@ textarea::placeholder {
     }
 
     .card img {
-        margin-left: 160px !important;
-        width: 50px !important;
+        margin-left: 40% !important;
     }
 
     .card-body {
@@ -1437,9 +1419,10 @@ textarea::placeholder {
     }
 
     .hyt {
-        margin-left: -8px;
+        font-size: 16px !important;
+        margin-left: -5px;
     }
-
+    
     .teamb {
         width: 100% !important;
         height: 100% !important;
@@ -1469,7 +1452,7 @@ textarea::placeholder {
 
     .card-img {
         height: 400px !important;
-        width: 400px;
+        width: 330px;
     }
 
     .card-img img {
@@ -1525,14 +1508,13 @@ textarea::placeholder {
 
     .showcase {
         background-image: url(./media/IMG_9578444.gif);
-        height: 35vh;
+        height: 40vh !important;
         background-position: center;
         background-size: cover;
     }
 
     .chanen {
-        padding-top: 70px !important;
-
+        padding-top: 50px !important;
     }
 
     .chanen h1 {
@@ -1562,8 +1544,7 @@ textarea::placeholder {
     }
 
     .sec3C {
-        height: 70vh !important;
-        min-height: 10vh !important;
+        height: 60%;
         padding: 20px;
     }
 
@@ -1583,19 +1564,15 @@ textarea::placeholder {
     }
 
     .fexing img {
-        width: 200px !important;
-        height: 200px !important;
+        width: 100% !important;
+        height: 100% !important;
         padding-bottom: 50px !important;
     }
 
     .sec3d {
         height: auto !important;
-        min-height: 80vh;
+        min-height: 80%;
         padding: 30px 15px;
-    }
-
-    .red {
-        min-height: 20vh !important;
     }
 
     .abt p {
@@ -1625,8 +1602,8 @@ textarea::placeholder {
     }
 
     .video-hero {
-        min-height: 300px !important;
-        height: 40vh !important;
+        height: 15vh!important;
+        min-height: 300px;
     }
 
     .video-content p {
@@ -1635,8 +1612,8 @@ textarea::placeholder {
     }
 
     .video-content img {
-        width: 60% !important;
-        max-width: 150px;
+        width: 60% !important
+        /* max-width: 150px; */
     }
 
     .smallsec {
@@ -1691,7 +1668,8 @@ textarea::placeholder {
     }
 
     .adding {
-        width: 95% !important;
+        width: 100% !important;
+        height: 90% !important;
         margin-top: 30px !important;
         padding: 15px;
     }
@@ -1699,10 +1677,19 @@ textarea::placeholder {
     .text {
         font-size: 1rem !important;
     }
-
+/* .sec3b {
+    background: linear-gradient(180deg, #061313 0%, #040303 100%);
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+} */
 
     .Phase2 {
-        margin-top: -20px !important;
+        margin-top: 20px !important;
+    }
+
+    .board{
+         margin-top: 30px !important;
     }
 
     .sec3d img {
@@ -1724,11 +1711,15 @@ textarea::placeholder {
     }
 
     .globe {
-        width: 310% !important;
+        width: 250% !important;
         border-radius: 20px;
-        margin-left: -47px !important;
+        margin-left: -20% !important;
         margin-top: -60px;
         flex-direction: column;
+    } 
+
+    .review{
+        width: 100%;
     }
 
     .vinyltext {
@@ -1746,17 +1737,17 @@ textarea::placeholder {
         flex-direction: column !important;
         gap: 5px !important;
         text-align: center;
-        margin-top: 150px !important;
+        margin-top: 30% !important;
         left: -25%;
     }
 
     .social-links a {
-        font-size: 20px !important;
+        font-size: 15px !important;
         margin-right: 10px !important;
     }
 
     .monica {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .vrd {
@@ -1768,6 +1759,8 @@ textarea::placeholder {
 
     .adj {
         font-size: 1.5rem !important;
+        width: 150%;
+        margin-left: -15%;
     }
 
     .sec2 {
@@ -1775,246 +1768,15 @@ textarea::placeholder {
     }
 
     .sec3f {
-        height: 100vh !important;
+        height: 100% !important;
     }
 
     .btno {
-        margin-left: 125px !important;
+        margin-left: 30% !important;
     }
 
     .phy {
         margin-top: -30px !important;
-    }
-}
-
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-
-    .hero-content h1 {
-        font-size: 1.6rem !important;
-    }
-
-    .hero-content p {
-        font-size: 0.85rem !important;
-    }
-
-    h1 {
-        font-size: 1.7rem !important;
-    }
-
-    h2 {
-        font-size: 1.4rem !important;
-    }
-
-    .sec2 {
-        margin-top: -300px !important;
-    }
-
-    .btno {
-        margin-left: 100px !important;
-    }
-
-    /* Navbar */
-    .logo-img {
-        width: 35px !important;
-    }
-
-    .navbar-collapse {
-        background: rgba(6, 18, 18, 0.98);
-        padding: 15px;
-        border-radius: 10px;
-        margin-top: 10px;
-    }
-
-    .gt {
-        flex-direction: column;
-        gap: 10px !important;
-    }
-
-    .btnn,
-    .btn1 {
-        width: 120% !important;
-    }
-
-    /* Hero */
-    .hero-wrapper {
-        min-height: 110vh !important;
-    }
-
-    .hero-content3 {
-        left: 8% !important;
-    }
-
-    .hero-content2 {
-        flex-direction: column;
-        padding: 50px 20px;
-    }
-
-    .hero-image img {
-        max-width: 80% !important;
-    }
-
-    .hero-img {
-        position: relative !important;
-        bottom: auto !important;
-        top: auto !important;
-        left: auto !important;
-        width: 75% !important;
-        margin-top: 25px;
-    }
-
-    .img02 {
-        width: 80% !important;
-        max-width: 350px;
-    }
-
-    .floating-icons {
-        display: block !important;
-    }
-
-    .floating-icons .icon {
-        width: 80px !important;
-        height: 120px !important;
-        opacity: 0.15 !important;
-    }
-
-    .icon-1 {
-        top: 10% !important;
-        left: 5% !important;
-    }
-
-    .icon-2 {
-        top: 25% !important;
-        right: 5% !important;
-    }
-
-    .icon-3 {
-        top: 40% !important;
-        right: 3% !important;
-    }
-
-    .icon-4 {
-        top: 55% !important;
-        right: 8% !important;
-    }
-
-    .icon-5,
-    .icon-6 {
-        display: block !important;
-    }
-
-    .arc {
-        width: 120%;
-        height: 88%;
-        opacity: 1px;
-    }
-
-    .arc-1 {
-        top: 14%;
-    }
-
-    .arc-2 {
-        top: 20%;
-        width: 100%;
-        height: 80%;
-    }
-
-    .arc-3 {
-        top: 28%;
-        width: 70%;
-        height: 60%;
-    }
-
-    .arc-4 {
-        top: 62%;
-        width: 100%;
-        display: none;
-    }
-
-    .team-wrapper {
-        grid-template-columns: 1fr !important;
-        gap: 25px;
-    }
-
-    .team-grid {
-        grid-template-columns: 1fr !important;
-        margin: 15px !important;
-        margin-left: 15px !important;
-    }
-
-    .services-wrapper {
-        flex-direction: column;
-    }
-
-    .service-item {
-        flex-direction: column !important;
-    }
-
-    .service-item.reverse {
-        flex-direction: column !important;
-        margin-left: 0 !important;
-    }
-
-    .sec3C {
-        height: 70vh !important;
-        min-height: 10vh;
-    }
-
-    .fexing {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .sec3d,
-    .sec3e {
-        height: auto !important;
-        min-height: 70vh;
-    }
-
-    .showcase {
-        height: 100vh !important;
-    }
-
-    .service-card.wide {
-        width: 90% !important;
-    }
-
-    .footer-left {
-        flex-direction: column;
-    }
-
-    .footer-links {
-        flex-direction: row;
-        gap: 40px !important;
-    }
-
-    .video-hero {
-        min-height: 350px !important;
-    }
-
-    .monica {
-        flex-direction: column;
-    }
-
-    .vrd {
-        width: 70% !important;
-        left: 15% !important;
-        position: relative !important;
-        margin-top: 20px;
-    }
-
-    .vinyltext {
-        position: relative !important;
-        max-width: 100% !important;
-        left: auto !important;
-        top: auto !important;
-        font-size: 30px !important;
-    }
-
-    .vin {
-        flex-direction: column;
-        gap: 0px !important;
-        margin-left: -100px !important;
     }
 }
 
@@ -2074,9 +1836,20 @@ textarea::placeholder {
     }
 
     .team-grid {
-        grid-template-columns: repeat(2, 1fr);
-        margin-left: 50px !important;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 120px !important;
     }
+
+     .card-img {
+        height: 500px !important;
+        width: 500px;
+    }
+
+    .card-img img {
+        height: 550px !important;
+        width: 100% !important;
+    }
+
 
     .service-item {
         margin-bottom: 60px !important;
@@ -2131,9 +1904,9 @@ textarea::placeholder {
         min-height: 400px !important;
     }
 
-    .globe {
-        width: 60% !important;
-    }
+    /* .globe {
+        width: 100% !important;
+    } */
 
     .vinyltext {
         max-width: 500px !important;
