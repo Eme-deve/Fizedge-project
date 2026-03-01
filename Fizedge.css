@@ -572,9 +572,9 @@ textarea::placeholder {
     margin-left: -6px;
 }
 
-  .dyy{
-        font-size: 20px !important;
-    }
+.dyy {
+    font-size: 20px !important;
+}
 
 .team-img {
     width: 100%;
@@ -1152,8 +1152,9 @@ textarea::placeholder {
     }
 
     .arc-4 {
-        top: 59% !important;
-        width: 100%;
+        top: 55%;
+        width: 105%;
+        height: 60%;
         /* display: none; */
     }
 
@@ -1228,18 +1229,16 @@ textarea::placeholder {
         font-size: 15px !important;
     }
 
-    .but{
+    .but {
         margin-top: -45px !important;
     }
 
-    /* Hero Sections */
     .hero-wrapper {
-        min-height: 90vh !important;
-        padding: 20px 10px 20px;
-    }
+        min-height: 100vh !important; 
+    } 
 
     .hero-wrapper2 {
-        min-height: 60% ;
+        min-height: 60%;
     }
 
     .hero-wrapper3 {
@@ -1298,17 +1297,9 @@ textarea::placeholder {
 
     /* Hero Image */
     .hero-img {
-        position: relative !important;
-        bottom: auto !important;
-        top: auto !important;
-        left: auto !important;
-        width: 100% !important;
-        margin-top: 80px;
-        margin-left: -15px;
-    }
-
-    .hero-img img {
-        width: 100% !important;
+        top: 60% !important;
+        left:7% !important;
+        width: 100%;
     }
 
     /* Floating Icons - Show on mobile but optimized */
@@ -1362,9 +1353,11 @@ textarea::placeholder {
     .details img {
         width: 100%;
     }
-.clients{
-    margin-top: -5% !important;
-}
+
+    .clients {
+        margin-top: -5% !important;
+    }
+
     .clients img {
         width: 80%;
     }
@@ -1422,7 +1415,7 @@ textarea::placeholder {
         font-size: 16px !important;
         margin-left: -5px;
     }
-    
+
     .teamb {
         width: 100% !important;
         height: 100% !important;
@@ -1602,7 +1595,7 @@ textarea::placeholder {
     }
 
     .video-hero {
-        height: 15vh!important;
+        height: 15vh !important;
         min-height: 300px;
     }
 
@@ -1613,7 +1606,7 @@ textarea::placeholder {
 
     .video-content img {
         width: 60% !important
-        /* max-width: 150px; */
+            /* max-width: 150px; */
     }
 
     .smallsec {
@@ -1677,7 +1670,8 @@ textarea::placeholder {
     .text {
         font-size: 1rem !important;
     }
-/* .sec3b {
+
+    /* .sec3b {
     background: linear-gradient(180deg, #061313 0%, #040303 100%);
     position: relative;
     margin-top: 20px;
@@ -1688,8 +1682,8 @@ textarea::placeholder {
         margin-top: 20px !important;
     }
 
-    .board{
-         margin-top: 30px !important;
+    .board {
+        margin-top: 30px !important;
     }
 
     .sec3d img {
@@ -1716,9 +1710,9 @@ textarea::placeholder {
         margin-left: -20% !important;
         margin-top: -60px;
         flex-direction: column;
-    } 
+    }
 
-    .review{
+    .review {
         width: 100%;
     }
 
@@ -1840,7 +1834,7 @@ textarea::placeholder {
         margin-left: 120px !important;
     }
 
-     .card-img {
+    .card-img {
         height: 500px !important;
         width: 500px;
     }
@@ -1969,6 +1963,7 @@ textarea::placeholder {
         left: 14% !important;
         width: 900px !important;
     }
+
     .team-grid {
         margin-left: 200px !important;
     }
@@ -2087,7 +2082,6 @@ textarea::placeholder {
         margin: 0 auto;
     }
 }
-
 
 @media screen and (min-width: 2560px) and (max-width: 4000px) {
 
@@ -2348,7 +2342,7 @@ textarea::placeholder {
         font-size: 20px !important;
     }
 
-    
+
     .form-control {
         padding: 20px !important;
         font-size: 18px !important;
