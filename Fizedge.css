@@ -1158,6 +1158,7 @@ textarea::placeholder {
 
     .switch{
         display: inline-block;
+        top: 10%;
     }
     .arc-1 {
         top: 14%;
