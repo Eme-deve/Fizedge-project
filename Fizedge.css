@@ -1149,17 +1149,13 @@ textarea::placeholder {
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 479px) {
+@media screen and (min-width: 320px) and (max-width: 579px) {
     .arc {
         width: 120%;
         height: 88%;
         opacity: 1;
     }
 
-    .switch{
-        display: inline-block;
-        top: 10%;
-    }
     .arc-1 {
         top: 14%;
     }
