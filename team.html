@@ -117,6 +117,56 @@ Collaboration is at the core of everything we do. Every project is handled with 
     .image-wrapper:hover .img-front {
         opacity: 0;
     }
+
+    .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    display: none;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    inset: 0;
+    background-color: #ccc;
+    border-radius: 34px;
+    transition: 0.4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+input:checked + .slider {
+    background-color:orange;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+    .image-wrapper.active .img-back {
+    opacity: 1;
+}
+
+.image-wrapper.active .img-front {
+    opacity: 0;
+}
 </style>
 
 <body>
@@ -195,6 +245,13 @@ Collaboration is at the core of everything we do. Every project is handled with 
                 <div class="image-wrapper">
                     <img src="./media/fzg-(1).gif" alt="Team Preview" class="img-front" width="550" height="400">
                     <img src="./media/fzg-(2).gif" alt="Team Hover" class="img-back" width="550" height="400">
+
+                    <div class="toggle-wrapper">
+            <label class="switch">
+                <input type="checkbox" id="imageToggle">
+                <span class="slider"></span>
+            </label>
+        </div>
                 </div>
             </div>
         </div>
@@ -461,7 +518,21 @@ Collaboration is at the core of everything we do. Every project is handled with 
             function Started() {
                 window.location.href = "our journey.html"
             }
-        </script>
+            
+            const toggle = document.getElementById("imageToggle");
+const wrapper = document.querySelector(".image-wrapper");
+
+toggle.addEventListener("change", function () {
+
+    if (toggle.checked) {
+        wrapper.classList.add("active");
+    } else {
+        wrapper.classList.remove("active");
+    }
+
+});
+</script>
+    
 </body>
 
 </html>

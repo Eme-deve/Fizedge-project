@@ -787,7 +787,8 @@ textarea::placeholder {
     padding-bottom: 100px;
     overflow: hidden;
 }
-  .vinyltext {
+
+.vinyltext {
         position: relative !important;
         max-width: 120% !important;
         left: -10px !important;
@@ -1138,6 +1139,15 @@ textarea::placeholder {
     opacity: 1;
 }
 
+@media (hover: hover) and (pointer: fine) {
+    .image-wrapper:hover .img-back {
+        opacity: 1;
+    }
+
+    .image-wrapper:hover .img-front {
+        opacity: 0;
+    }
+}
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
     .arc {
@@ -1146,6 +1156,9 @@ textarea::placeholder {
         opacity: 1;
     }
 
+    .switch{
+        display: inline-block;
+    }
     .arc-1 {
         top: 14%;
     }
@@ -1708,33 +1721,7 @@ textarea::placeholder {
         max-width: 300px;
     }
 
-    /* .globe {
-        width: 200% !important;
-        border-radius: 20px;
-        margin-left: 15% !important;
-        margin-top: -60px;
-    }
-
-    .vinyltext {
-        position: relative !important;
-        max-width: 120% !important;
-        left: -10px !important;
-        top: auto !important;
-        padding: 15px;
-        text-align: center;
-        font-size: 30px !important;
-    }
-
-    .vin {
-        position: relative;
-        flex-direction: column !important;
-        gap: 5px !important;
-        text-align: center;
-        margin-top: 40% !important;
-        left: -25%;
-    } */
-
-    .vin img{
+.vin img{
         top: 10%;
     }
 
