@@ -123,8 +123,8 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
         </nav>
 
         <section class="video-hero">
-            <video autoplay loop playsinline preload="none" class="video-bg review">
-                <source src="./media/copy_A29F2F22-F7CB-4940-9842-42C2A5B5DEB1.MOV" type="video/mp4">
+            <video autoplay loop playsinline preload="metadata" class="video-bg">
+                <source src="./media/202603021528.mp4" type="video/mp4">
             </video>
 
             <div class="video-overlay"></div>
@@ -139,7 +139,7 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
 
     <section class="sec3C ret" fetchpriority="High">
         <div class="Phase2 yt">
-            <img src="./media/Frame 1000004283 (7).png" alt="" class="mb-4">
+            <img src="./media/Frame 1000004283 (3).svg" alt="" class="mb-4">
         </div>
 
         <div class="d-flex justify-content-around fexing">
@@ -166,7 +166,7 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
 
     <section class="sec3d ter">
         <div class="Phase2">
-            <img src="./media/Frame 1000004285.png" alt="" class="mb-4">
+            <img src="./media/Frame 1000004285 (2).svg" alt="" class="mb-4">
         </div>
 
         <div class="d-flex justify-content-between ver">
@@ -207,8 +207,8 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
     <section class="sec3d red">
         <div class="d-flex justify-content-between mx-5 mt-5" id="vinly">
             <div>
-                <video src="./media/copy_1EB8AC99-5F06-4F7E-B714-16557C3AA3ED.MOV" loop playsinline preload="none"
-                    class=" globe mx-4 review">
+                <video src="./media/202603021547.mp4" loop playsinline preload="metadata"
+                    class=" globe mx-4 review" controls>
                 </video>
             </div>
 
@@ -310,31 +310,33 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
         function Started() {
             window.location.href = "our journey.html"
         }
+document.addEventListener("DOMContentLoaded", function () {
 
-        const videos = document.querySelectorAll(".review");
+    const allVideos = document.querySelectorAll("video");
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                const video = entry.target;
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+            const video = entry.target;
 
-                if (entry.isIntersecting) {
-                    video.play();
-                } else {
-                    video.pause();
+            if (!entry.isIntersecting) {
+                video.pause();
+            } else {
+                // Only auto-play background when visible
+                if (video.classList.contains("video-bg")) {
+                    video.play().catch(() => {});
                 }
-            });
-        }, {
-            threshold: 0.6
+            }
         });
+    }, {
+        threshold: 0.5
+    });
 
-        videos.forEach(video => {
-            observer.observe(video);
-        });
+    allVideos.forEach(function(video) {
+        observer.observe(video);
+    });
 
-
+});
     </script>
-    </section>
-
 </body>
 
 </html>

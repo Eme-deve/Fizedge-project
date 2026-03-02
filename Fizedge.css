@@ -616,6 +616,7 @@ textarea::placeholder {
     font-size: 14px;
     opacity: 0.8;
     margin-top: 6px;
+    color: #D2700F;
 }
 
 .role-badge {
@@ -674,6 +675,7 @@ textarea::placeholder {
     font-size: 12px;
     opacity: 0.75;
     margin-top: 4px;
+    color: #D2700F;
 }
 
 .Phase3 {
@@ -1705,15 +1707,11 @@ textarea::placeholder {
     }
 
     .globe {
-        width: 250% !important;
+        width: 400% !important;
         border-radius: 20px;
         margin-left: -20% !important;
         margin-top: -60px;
         flex-direction: column;
-    }
-
-    .review {
-        width: 100%;
     }
 
     .vinyltext {
@@ -1733,6 +1731,10 @@ textarea::placeholder {
         text-align: center;
         margin-top: 30% !important;
         left: -25%;
+    }
+
+    .vin img{
+        top: 10%;
     }
 
     .social-links a {
