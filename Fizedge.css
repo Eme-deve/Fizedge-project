@@ -1708,12 +1708,11 @@ textarea::placeholder {
         max-width: 300px;
     }
 
-    .globe {
+    /* .globe {
         width: 200% !important;
         border-radius: 20px;
         margin-left: 15% !important;
         margin-top: -60px;
-        flex-direction: column;
     }
 
     .vinyltext {
@@ -1733,7 +1732,7 @@ textarea::placeholder {
         text-align: center;
         margin-top: 40% !important;
         left: -25%;
-    }
+    } */
 
     .vin img{
         top: 10%;

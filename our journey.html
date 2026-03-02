@@ -34,20 +34,11 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
 
 </head>
 <style>
-    .globe {
-        width: 80%;
-        border-radius: 40px;
-    }
-
-    .vin {
-        gap: 120px !important;
-        font-family: Impact, 'Arial Narrow Bold', sans-serif;
-        margin-top: 50px;
-    }
-
-    .vin h2 {
-        margin-top: 50px;
-    }
+.sec3d h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+}
+    
 </style>
 
 <body>
@@ -195,64 +186,54 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
         </div>
     </section>
 
-    <section class="sec3d red">
-        <div class="d-flex justify-content-between mx-5 mt-5" id="vinly">
-            <div class="review-wrapper" >
-                <video src="./media/202603021547.mp4" loop playsinline preload="metadata"
-                    class=" globe mx-4 review" controls>
+    <section class="sec3d red py-5">
+    <div class="container">
+
+        <div class="row align-items-center g-4">
+
+            <!-- Video Column -->
+            <div class="col-12 col-lg-6 text-center">
+                <video 
+                    src="./media/202603021547.mp4"
+                    class="img-fluid rounded-4 shadow"
+                    loop
+                    playsinline
+                    preload="metadata"
+                    controls>
                 </video>
             </div>
 
-            <div class="d-flex vin">
-                <div class="text-nowrap ">
-                    <h2 class="rev">
-                        Review from 143vinyl
-                    </h2>
-                </div>
+            <!-- Text + Logo Column -->
+            <div class="col-12 col-lg-6 text-center text-lg-start gap-5">
 
-                <div>
-                    <img src="./media/143VINYL_Heart_Logo (1).svg" alt="" class="w-50 mt-4">
-                </div>
-            </div>
-        </div>
+                <h2 class="fw-bold mb-4">
+                    Review from 143vinyl
+                </h2>
 
-        <div class="vinyltext">
-            <p>
-                143VINYL is one of the largest U.S. company that specializes in supplying permanent adhesive vinyl and
-                iron-on
-                heat transfer vinyl for crafting, printing, and custom designs.
-            </p>
-        </div>
-</section>
+                <img 
+                    src="./media/143VINYL_Heart_Logo (1).svg"
+                    alt="143Vinyl Logo"
+                    class="img-fluid mb-4"
+                    style="max-width: 220px;"
+                >
 
-    <section class="sec3e">
-        <div class="Phase2 mb-4 phy">
-            <img src="./media/Frame 1000004285 (1).svg" alt="" class="mb-4">
-        </div>
-
-        <div class="text-center">
-            <div class="up">
-                <img src="./media/Screenshot_2026-02-06_024546-gigapixel-text-shapes-2x.png" alt="Upwork page"
-                    class="w-75 overflow-hidden mb-4">
             </div>
 
-            <div>
-                <h1>
-                    Verified Performance
-                    <br>
-                    Beyond Partnership
-                </h1>
-                <p>
-                    Fizedge Projects LTD also operates through direct partnerships outside <br> of freelance platforms.
+        </div>
+
+        <!-- Bottom Description -->
+        <div class="row mt-5">
+            <div class="col-12 text-center">
+                <p class="lead px-lg-5">
+                    143VINYL is one of the largest U.S. company that specializes in supplying 
+                    permanent adhesive vinyl and iron-on heat transfer vinyl for crafting, 
+                    printing, and custom designs.
                 </p>
-                <a href="https://www.upwork.com/freelancers/~01b4df1ac1d010ed3d?mp_source=share">
-                    <button type="button" class="btn btn-outline-secondary btn2a text-light mt-3">Visit Upwork
-                        profile
-                    </button>
-                </a>
             </div>
         </div>
-    </section>
+
+    </div>
+</section>
 
     <footer class="footer-content ">
         <div class="footer-left  mt-4 mx-3">
@@ -310,7 +291,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const video = entry.target;
 
             if (!entry.isIntersecting) {
-                video.pause();
+                video.play();
             } else {
                 // Only auto-play background when visible
                 if (video.classList.contains("video-bg")) {
