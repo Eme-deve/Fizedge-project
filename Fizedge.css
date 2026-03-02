@@ -787,6 +787,15 @@ textarea::placeholder {
     padding-bottom: 100px;
     overflow: hidden;
 }
+  .vinyltext {
+        position: relative !important;
+        max-width: 120% !important;
+        left: -10px !important;
+        top: auto !important;
+        padding: 15px;
+        text-align: center;
+        font-size: 30px !important;
+    }
 
 .sec3e {
     background: #030404;
@@ -1673,13 +1682,6 @@ textarea::placeholder {
         font-size: 1rem !important;
     }
 
-    /* .sec3b {
-    background: linear-gradient(180deg, #061313 0%, #040303 100%);
-    position: relative;
-    margin-top: 20px;
-    overflow: hidden;
-} */
-
     .Phase2 {
         margin-top: 20px !important;
     }
@@ -1707,9 +1709,9 @@ textarea::placeholder {
     }
 
     .globe {
-        width: 400% !important;
+        width: 200% !important;
         border-radius: 20px;
-        margin-left: -20% !important;
+        margin-left: 15% !important;
         margin-top: -60px;
         flex-direction: column;
     }
@@ -1729,7 +1731,7 @@ textarea::placeholder {
         flex-direction: column !important;
         gap: 5px !important;
         text-align: center;
-        margin-top: 30% !important;
+        margin-top: 40% !important;
         left: -25%;
     }
 

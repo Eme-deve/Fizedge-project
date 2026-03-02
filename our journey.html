@@ -48,15 +48,6 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
     .vin h2 {
         margin-top: 50px;
     }
-
-    .vinyltext {
-        position: absolute;
-        max-width: 650px;
-        left: 50%;
-        top: 40%;
-        font-size: larger;
-        font-family: 'Times New Roman', Times, serif;
-    }
 </style>
 
 <body>
@@ -123,7 +114,7 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
         </nav>
 
         <section class="video-hero">
-            <video autoplay loop playsinline preload="metadata" class="video-bg">
+            <video autoplay loop playsinline preload="metadata" muted class="video-bg">
                 <source src="./media/202603021528.mp4" type="video/mp4">
             </video>
 
@@ -206,7 +197,7 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
 
     <section class="sec3d red">
         <div class="d-flex justify-content-between mx-5 mt-5" id="vinly">
-            <div>
+            <div class="review-wrapper" >
                 <video src="./media/202603021547.mp4" loop playsinline preload="metadata"
                     class=" globe mx-4 review" controls>
                 </video>
@@ -232,7 +223,7 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
                 heat transfer vinyl for crafting, printing, and custom designs.
             </p>
         </div>
-    </section>
+</section>
 
     <section class="sec3e">
         <div class="Phase2 mb-4 phy">
@@ -323,6 +314,9 @@ document.addEventListener("DOMContentLoaded", function () {
             } else {
                 // Only auto-play background when visible
                 if (video.classList.contains("video-bg")) {
+                    if (isMobile.matches){
+                        video.muted = true;
+                    }
                     video.play().catch(() => {});
                 }
             }
