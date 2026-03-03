@@ -231,9 +231,37 @@ Fizedge Projects LTD was built from a passion for precision design and real prod
                 </p>
             </div>
         </div>
-
     </div>
 </section>
+
+ <section class="sec3e">
+        <div class="Phase2 mb-4 phy">
+            <img src="./media/Frame 1000004285 (1).svg" alt="" class="mb-4">
+        </div>
+
+        <div class="text-center">
+            <div class="up">
+                <img src="./media/Screenshot_2026-02-06_024546-gigapixel-text-shapes-2x.png" alt="Upwork page"
+                    class="w-75 overflow-hidden mb-4">
+            </div>
+
+            <div>
+                <h1>
+                    Verified Performance
+                    <br>
+                    Beyond Partnership
+                </h1>
+                <p>
+                    Fizedge Projects LTD also operates through direct partnerships outside <br> of freelance platforms.
+                </p>
+                <a href="https://www.upwork.com/freelancers/~01b4df1ac1d010ed3d?mp_source=share">
+                    <button type="button" class="btn btn-outline-secondary btn2a text-light mt-3">Visit Upwork
+                        profile
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer-content ">
         <div class="footer-left  mt-4 mx-3">
@@ -291,8 +319,11 @@ document.addEventListener("DOMContentLoaded", function () {
             const video = entry.target;
 
             if (!entry.isIntersecting) {
-                video.play();
-            } else {
+                video.pause();
+            }  if (entry.isIntersecting) {
+                    video.play();
+                }
+            else {
                 // Only auto-play background when visible
                 if (video.classList.contains("video-bg")) {
                     if (isMobile.matches){
