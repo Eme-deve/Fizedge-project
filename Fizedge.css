@@ -251,8 +251,12 @@ textarea::placeholder {
     opacity: 0.8;
     font-size: 1rem;
 }
-
-
+.get{
+    position: relative;
+    left:43%;
+    z-index:1;
+    
+}
 .clients span {
     font-size: 20px;
     opacity: 0.8;
@@ -261,15 +265,15 @@ textarea::placeholder {
 .hero-img {
     position: absolute;
     bottom: 20%;
-    top: 50%;
-    left: 22%;
+    top: 53%;
+    left: 25%;
     width: min(1000px);
     z-index: 2;
     pointer-events: none;
 }
 
 .hero-img img {
-    width: 80%;
+    width: 70%;
     height: auto;
     display: block;
 }
@@ -306,7 +310,7 @@ textarea::placeholder {
     position: absolute;
     width: 120%;
     height: 240%;
-    top: 46%;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
@@ -1246,7 +1250,7 @@ textarea::placeholder {
     }
 
     .hero-wrapper {
-        min-height: 100vh !important; 
+        min-height: 118vh !important; 
     } 
 
     .hero-wrapper2 {
@@ -1367,12 +1371,18 @@ textarea::placeholder {
     }
 
     .clients {
-        margin-top: -5% !important;
+        margin-top: 5% !important;
     }
-
-    .clients img {
-        width: 80%;
-    }
+    
+    .get {
+        width: 30%;
+    position: relative;
+    left:35%;
+    margin-top: -5%;
+    z-index:1;
+    
+    
+}
 
     .btn-primary,
     .btn-outline {
