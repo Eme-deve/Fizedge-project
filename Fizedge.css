@@ -1168,7 +1168,7 @@ textarea::placeholder {
     }
 
     .arc-4 {
-        top: 55%;
+        top: 62%;
         width: 105%;
         height: 60%;
         /* display: none; */
@@ -1250,7 +1250,7 @@ textarea::placeholder {
     }
 
     .hero-wrapper {
-        min-height: 118vh !important; 
+        min-height: 100vh !important; 
     } 
 
     .hero-wrapper2 {
@@ -1311,14 +1311,12 @@ textarea::placeholder {
         margin-left: -48.5px;
     }
 
-    /* Hero Image */
     .hero-img {
-        top: 60% !important;
-        left:7% !important;
+        top: 65% !important;
+        left:12% !important;
         width: 100%;
     }
 
-    /* Floating Icons - Show on mobile but optimized */
     .floating-icons {
         display: block !important;
     }
@@ -1371,17 +1369,15 @@ textarea::placeholder {
     }
 
     .clients {
-        margin-top: 5% !important;
+        margin-top: 2% !important;
     }
     
     .get {
-        width: 30%;
+    width: 30%;
     position: relative;
     left:35%;
     margin-top: -5%;
     z-index:1;
-    
-    
 }
 
     .btn-primary,
@@ -1553,8 +1549,8 @@ textarea::placeholder {
     }
 
     .sec3 {
-        margin-top: -60px !important;
-        padding-top: 80px !important;
+        /* margin-top: -60px !important; */
+        padding-top: 10px !important;
         padding-bottom: 50px !important;
     }
 
@@ -1787,7 +1783,7 @@ textarea::placeholder {
     }
 
     .hero-wrapper {
-        min-height: 130vh !important;
+        height: 120vh !important;
     }
 
     .hero-content2 {
