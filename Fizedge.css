@@ -1743,6 +1743,7 @@ textarea::placeholder {
 
     .btno {
         margin-left: 30% !important;
+        z-index: 1;
     }
 
     .phy {
