@@ -253,7 +253,7 @@ textarea::placeholder {
 }
 .get{
     position: relative;
-    left:43%;
+    left:46%;
     z-index:1;
     
 }
@@ -265,15 +265,15 @@ textarea::placeholder {
 .hero-img {
     position: absolute;
     bottom: 20%;
-    top: 53%;
-    left: 25%;
+    top: 48%;
+    left: 22%;
     width: min(1000px);
     z-index: 2;
     pointer-events: none;
 }
 
 .hero-img img {
-    width: 70%;
+    width: 80%;
     height: auto;
     display: block;
 }
@@ -310,7 +310,7 @@ textarea::placeholder {
     position: absolute;
     width: 120%;
     height: 240%;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
@@ -1313,7 +1313,7 @@ textarea::placeholder {
 
     .hero-img {
         top: 65% !important;
-        left:12% !important;
+        left:9% !important;
         width: 100%;
     }
 
