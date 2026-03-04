@@ -139,7 +139,7 @@ textarea::placeholder {
     border-radius: 14px;
     width: 140px;
     height: 46px;
-    margin-left: 300px;
+    margin-left: 325px;
     color: #061212;
     font-weight: 600;
     box-shadow: 0px 1px 3.3px 0px #00FF9D;
@@ -422,26 +422,6 @@ textarea::placeholder {
     inset: 0;
     z-index: 2;
 }
-
-
-.video-content {
-    position: relative;
-    z-index: 3;
-    text-align: center;
-    max-width: 900px;
-    padding: 0 20px;
-}
-
-.video-content p {
-    font-size: 30px;
-    max-width: 850px;
-    text-shadow: 2px 5px 5px black;
-    margin: 0 auto 10px;
-    color: #cfdede;
-    line-height: 1.7;
-    font-weight: bold;
-}
-
 
 .hero-actions {
     display: flex;
@@ -1617,16 +1597,6 @@ textarea::placeholder {
         min-height: 300px;
     }
 
-    .video-content p {
-        font-size: 14px !important;
-        padding: 0 10px;
-    }
-
-    .video-content img {
-        width: 60% !important
-            /* max-width: 150px; */
-    }
-
     .smallsec {
         height: auto !important;
         min-height: 200px;
@@ -2286,11 +2256,6 @@ textarea::placeholder {
         min-height: 600px !important;
     }
 
-    .video-content p {
-        font-size: 36px !important;
-    }
-
-    /* Smallsec */
     .smallsec {
         height: 50vh !important;
         min-height: 400px;
