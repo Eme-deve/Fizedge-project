@@ -12,7 +12,6 @@ body {
     color: #fff;
 }
 
-
 .hero-wrapper {
     position: relative;
     min-height: 145vh;
@@ -73,7 +72,6 @@ textarea::placeholder {
     color: #D2700F !important;
     font-size: 30px;
 }
-
 
 .hero-wrapper3 {
     position: relative;
@@ -305,7 +303,6 @@ textarea::placeholder {
     height: 95%;
 }
 
-
 .arc-4 {
     position: absolute;
     width: 120%;
@@ -319,7 +316,6 @@ textarea::placeholder {
     backdrop-filter: blur(168px);
     background: #061212;
 }
-
 
 .floating-icons {
     position: absolute;
@@ -347,7 +343,6 @@ textarea::placeholder {
 .icon-2 {
     background-image: url("./media/Group 1000002214.png");
     top: 65%;
-    /* left: 28%; */
     animation-duration: 9s;
 }
 
@@ -417,19 +412,6 @@ textarea::placeholder {
     z-index: 1;
 }
 
-.video-overlay {
-    position: absolute;
-    inset: 0;
-    z-index: 2;
-}
-
-.hero-actions {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .btn-primary {
     padding: 14px 28px;
     background: linear-gradient(135deg, #00ff9d, #00c67c);
@@ -460,14 +442,12 @@ textarea::placeholder {
     color: #061313;
 }
 
-
 .sec2 .icon {
     position: absolute;
     width: 250px;
     height: 450px;
     background-size: contain;
     background-repeat: no-repeat;
-    /* opacity: 0.25; */
     animation: float 3s ease-in-out infinite;
 }
 
@@ -674,7 +654,6 @@ textarea::placeholder {
     display: flex;
     justify-content: center;
 }
-
 
 .smallone img {
     margin-top: 20px;
@@ -1151,7 +1130,6 @@ textarea::placeholder {
         top: 62%;
         width: 105%;
         height: 60%;
-        /* display: none; */
     }
 
     .hero-content h1 {
@@ -1180,7 +1158,6 @@ textarea::placeholder {
         font-size: 0.75rem !important;
     }
 
-    /* Navbar */
     .navbar {
         padding: 10px !important;
     }
@@ -1529,7 +1506,6 @@ textarea::placeholder {
     }
 
     .sec3 {
-        /* margin-top: -60px !important; */
         padding-top: 10px !important;
         padding-bottom: 50px !important;
     }
@@ -1852,10 +1828,6 @@ textarea::placeholder {
     .video-hero {
         min-height: 400px !important;
     }
-
-    /* .globe {
-        width: 100% !important;
-    } */
 
     .vinyltext {
         max-width: 500px !important;
@@ -2347,7 +2319,6 @@ textarea::placeholder {
     }
 }
 
-
 @media screen and (max-width: 319px) {
     * {
         overflow-x: hidden;
@@ -2380,7 +2351,6 @@ textarea::placeholder {
     }
 }
 
-/* Landscape orientation fixes for mobile */
 @media screen and (max-height: 500px) and (orientation: landscape) {
     .hero-wrapper {
         min-height: 180vh !important;
@@ -2399,7 +2369,6 @@ textarea::placeholder {
     }
 }
 
-/* High DPI displays (Retina, 4K displays) */
 @media (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
 
